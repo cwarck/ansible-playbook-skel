@@ -23,5 +23,5 @@ make lint
 # Run playbook
 
 ```
-.venv/bin/ansible-playbook -i inventory.ini setup-nifi.yml
+.venv/bin/ansible-playbook -i inventory.ini playbook.yml
 ```
