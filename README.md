@@ -2,19 +2,22 @@
 
 Skeleton of ansible playbook.
 
+# Requirements
+* python3
+* gcc
+* make
+
 
 # Prepare environment
 
-Make sure you have `python3`, `gcc`, and `make` installed.
-
-Build environment:
+1. Add roles to `requirements.yml`.
+2. Build environment:
 ```
 make all
 ```
 
-Prepare hosts in `inventory.ini`.
-
-Lint playbook:
+3. Prepare hosts in `inventory.ini`.
+4. Lint playbook:
 ```
 make lint
 ```
